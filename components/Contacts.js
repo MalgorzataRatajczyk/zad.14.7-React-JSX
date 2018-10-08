@@ -15,7 +15,6 @@ var Contacts = React.createClass({
         });
   
         return (
-            // React.createElement('ul', {className: 'contactsList'}, contacts)
             <ul className={'contactsList'}>{contacts}</ul>
         );
     }
