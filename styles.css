@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    background-color: #2C3A47;
+}
+#app {
+    margin: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+#app .app .contactForm input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #CAD3C8;
+    color: black;
+    margin: 5px;
+}
+
+#app .app .contactForm button {
+    width: 60px;
+    height:  60px;
+    border-radius: 50%;
+    background-color: #182C61;
+    color: white;
+}
+
+#app .app .contactsList {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+#app .app .contactsList .contactItem {
+    border: 2px solid #F97F51;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #82589F;
+    width: 500px;
+    height: 200px;
+}
+
+#app .app .contactsList .contactItem .contactImage {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+#app .app .contactsList .contactItem .contactLabel {
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#app .app .contactsList .contactItem .contactEmail {
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 20px;
+}
